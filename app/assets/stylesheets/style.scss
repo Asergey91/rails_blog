@@ -1,5 +1,5 @@
 body {
-  background-image: url('bg.jpg');
+  background-image: image-url('bg.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
@@ -80,20 +80,20 @@ footer a:link{
 }
 
 .about_me .social_buttons .git{
-  background-image: url('git.png');
+  background-image: image-url('git.png');
 }
 .about_me .social_buttons .git:hover{
-  background-image: url('git_h.png');
+  background-image: image-url('git_h.png');
 }
 .about_me .social_buttons .fbook{
-  background-image: url('f.png');
+  background-image: image-url('f.png');
 }
 .about_me .social_buttons .fbook:hover{
-  background-image: url('f_h.png');
+  background-image: image-url('f_h.png');
 }
 .about_me .social_buttons .twtr{
-  background-image: url('t.png');
+  background-image: image-url('t.png');
 }
 .about_me .social_buttons .twtr:hover{
-  background-image: url('t_h.png');
+  background-image: image-url('t_h.png');
 }
