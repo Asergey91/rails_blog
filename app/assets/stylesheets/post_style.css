@@ -1,0 +1,51 @@
+/*POST CSS*/
+.post_container{
+  background: #38505b;
+  margin: 50px;
+}
+.post_content{
+  color: #ebb477;
+  padding: 0px 20px 25px 20px;
+}
+.post_title{
+  border-radius: 10px;
+  color: #ebb477;
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  bottom: 12px;
+  background: #38505b;
+  padding: 10px 20px;
+}
+.post_footer{
+  color: #50b0dc;
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  bottom: 21px;
+  background: #38505b;
+  padding: 0px 20px 10px 10px;
+  float: right;
+  border-radius: 6px;
+}
+.post_footer a{
+  color: #72e2fe;
+  border: none;
+}
+.post_footer a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+  border: none;
+}
+.post_footer a:visited{
+  color: #72e2fe;
+  border: none;
+}
+.post_footer a:active{
+  color: #72e2fe;
+  border: none;
+}
+.post_footer a:link{
+  color: #72e2fe;
+  border: none;
+}

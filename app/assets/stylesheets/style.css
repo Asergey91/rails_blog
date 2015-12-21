@@ -1,0 +1,99 @@
+body {
+  background-image: url('bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+textarea {
+   resize: none;
+}
+/*Title css*/
+#main_title{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 0 0 50px;
+}
+#sub_title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #72e2fe;
+  padding: 10px 0 0 200px;
+}
+/*Footer css*/
+footer{
+  background-color: #243033;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 25px;
+}
+footer a{
+  color: #72e2fe;
+  border: none;
+}
+footer a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+  border: none;
+}
+footer a:visited{
+  color: #72e2fe;
+  border: none;
+}
+footer a:active{
+  color: #72e2fe;
+  border: none;
+}
+footer a:link{
+  color: #72e2fe;
+  border: none;
+}
+/*About me css*/
+.about_me{
+  background-color: #38505b;
+  position: fixed;
+  margin-right: 50px;
+  margin-top: 100px;
+  padding: 20px;
+  color: #f3d3af;
+  font-weight: bold;
+}
+.about_me p{
+  font-size: 20px;
+}
+.about_me h2{
+  font-weight: bold;
+}
+.about_me .social_buttons{
+  position: relative;
+  bottom: 63px;
+  text-align: center;
+  margin-bottom: -80px;
+}
+.about_me .social_buttons div{
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  background-size: cover;
+  margin: 0 8px;
+  cursor:pointer
+}
+
+.about_me .social_buttons .git{
+  background-image: url('git.png');
+}
+.about_me .social_buttons .git:hover{
+  background-image: url('git_h.png');
+}
+.about_me .social_buttons .fbook{
+  background-image: url('f.png');
+}
+.about_me .social_buttons .fbook:hover{
+  background-image: url('f_h.png');
+}
+.about_me .social_buttons .twtr{
+  background-image: url('t.png');
+}
+.about_me .social_buttons .twtr:hover{
+  background-image: url('t_h.png');
+}

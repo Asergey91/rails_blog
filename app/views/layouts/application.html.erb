@@ -7,8 +7,44 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<h1 id='main_title'>Sergey Andreev</h1>
+<p id='sub_title'>I like programming, art, video games and other stuff. I'll try my best to write about those here!</p>
+<div class='container-fluid'>
+  <div class="row">
+    <div class='col-md-9 col-xs-12'>
+      <%= yield %>
+    </div>
+    <div class='col-md-3 col-xs-0'>
+      <div class='about_me  hidden-xs hidden-sm'>
+        
+        
+        <div class='social_buttons'>
+          <div class='git'>
+            
+          </div>
+          <div class='fbook'>
+            
+          </div>
+          <div class='twtr'>
+            
+          </div>
+        </div>
+        <div class='header'>
+          <h2>
+            About Me:
+          </h2>
+        </div>
+        <div class='content'>
+          <p>
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi non commodo purus. Etiam vestibulum est eros, et mattis ex condimentum nec. Morbi ultricies maximus metus, vel feugiat eros feugiat eget. Proin finibus massa tellus in gravida augue tempus ac. Donec placerat feugiat metus ut viverra. Duis interdum augue quis orci iaculis hendrerit. Ut euismod, sapien id molestie mattis, augue urna sagittis est, non scelerisque arcu ex ut justo. Vivamus et metus commodo, lobortis urna ac, laoreet eros. Aenean id libero laoreet, facilisis nisi quis, tincidunt orci. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  &copy; Sergey Anreev 2015, background art provided by <a href='https://twitter.com/wupto'>https://twitter.com/wupto</a>
+</footer>
 </body>
 </html>

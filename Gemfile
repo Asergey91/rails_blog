@@ -30,6 +30,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#PROJECT SPECIFIC
+# gem 'validates_email_format_of' couldnt get it to work need to ask
+# gem 'will_paginate', '~> 3.0.6' same here
+
 group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
